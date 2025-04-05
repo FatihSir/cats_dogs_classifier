@@ -2,7 +2,7 @@
 ![dog](cover.jpeg)
 ## Overview
 
-The **Cat & Dog Classifier** is a web-based image classification tool that leverages machine learning to predict whether an uploaded image contains a cat or a dog. This project utilizes Flask, HTML, CSS, and JavaScript to provide a simple, user-friendly interface for image classification.
+The **Cat & Dog Classifier** is a web-based image classification tool that leverages Convolutional Neural Networks (CNNs) to predict whether an uploaded image contains a cat or a dog. This project utilizes Flask, HTML, CSS, and JavaScript to provide a simple, user-friendly interface for image classification.
 
 Users can upload an image, and the model will predict whether the image contains a cat or a dog. The result is then displayed on the same page with an image preview, making it easy and intuitive for the user.
 
@@ -27,6 +27,9 @@ Users can upload an image, and the model will predict whether the image contains
 - **CSS3**: Applied for styling the frontend and making the design modern and responsive.
 - **JavaScript**: Used for image preview functionality and to handle file input dynamically.
 - **TensorFlow / Keras**: The machine learning framework that powers the classification model.
+- **AWS Cloud Server**: The model has been deployed on the cloud and can be accessed via www.alfateh.tech (after a short time the model will be deactovate)
+- **Nginx**: Used as a load balancer.
+- **Gunicorn**: Used as an Application Server.
 
 ---
 
